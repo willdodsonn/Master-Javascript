@@ -1,12 +1,9 @@
-function isOldEnoughToDrink(){
+let age = 21;
+
+function isOldEnoughToDrink(age) {
     // your code here	
-    let legalAge = 21;
-    let base = 0;
-    if(legalAge < 21){
-        return "you aren't old enough yet"
-    }
-    else if(age >= 21){
-        return "drinks on you!"
-    }
+   if(age>21) return true;
+   else return false
 }
-console.log(isOldEnoughToDrink(11));
+console.log(isOldEnoughToDrink(20));
+
