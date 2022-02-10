@@ -1,3 +1,4 @@
 function checkAge(name, age) {
-  // your code here
+  if(age < 21) return `go home ${name}!`
+  else return `welcome ${name}!`
 }
